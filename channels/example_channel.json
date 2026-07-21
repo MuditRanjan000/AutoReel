@@ -1,0 +1,12 @@
+{
+  "CHANNEL_NAME": "Your Channel Name",
+  "NICHE": "describe your topic (e.g. true crime and criminal justice stories)",
+  "CHANNEL_TONE": "describe the vibe (e.g. gripping, dramatic, and fact-driven)",
+  "YOUTUBE_CHANNEL_ID": "UC...",
+  "YOUTUBE_CATEGORY_ID": "25",
+  "voice": "en-US-GuyNeural",
+  "voice_rate": "+10%",
+  "video_duration_seconds": 55,
+  "MAX_VIDEOS_PER_DAY": 2,
+  "active": false
+}

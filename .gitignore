@@ -1,0 +1,168 @@
+# Secrets & Private Data — never commit these to GitHub
+.env
+*client_secrets.json
+credentials.json
+token.json
+channels/*_token.json
+config/*_token.json
+
+# Private User Configuration & Content
+channels/*.json
+!channels/example_channel.json
+data/corpus/*.json
+skills/*-script-writer/
+!skills/viral-script-writer/
+token.json
+
+# Google Cloud service account key (full private key — NEVER commit)
+config/gcp-credentials.json
+
+# YouTube OAuth2 client secrets (OAuth client_id + client_secret)
+config/youtube_client_secrets.json
+
+# Google TTS monthly usage tracker (billing-sensitive)
+config/google_tts_usage.json
+config/google_tts_usage.json.lock
+*.lock
+
+# Winning strategy files (auto-generated runtime data, not source code)
+config/winning_strategy_*.json
+
+# BGM discovery cache (runtime-generated, large)
+config/bgm_discovery.json
+
+# SQLite Databases (dynamic runtime state)
+*.db
+*.db-journal
+*.db-wal
+*.db-shm
+*.sqlite
+*.sqlite3
+
+# Python Caches & Environments
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.env/
+.venv/
+
+# Mac OS Files
+.DS_Store
+
+# Generated Output / Large Media Files
+output/
+.tmp/
+tmp/
+*.mp4
+*.mp3
+*.wav
+*.avi
+*.jpg
+*.jpeg
+*.png
+
+# Precompiled Binaries
+*.exe
+rtk.exe
+
+# VS Code / IDE Settings
+.vscode/
+.idea/
+
+# Windows OS Files
+Thumbs.db
+Desktop.ini
+desktop.ini
+
+# Secrets & Private Data — never commit these to GitHub
+.env
+*client_secrets.json
+credentials.json
+token.json
+channels/*_token.json
+config/*_token.json
+
+# Private User Configuration & Content
+channels/*.json
+!channels/example_channel.json
+data/corpus/*.json
+skills/*-script-writer/
+!skills/viral-script-writer/
+token.json
+
+# Google Cloud service account key (full private key — NEVER commit)
+config/gcp-credentials.json
+
+# YouTube OAuth2 client secrets (OAuth client_id + client_secret)
+config/youtube_client_secrets.json
+
+# Google TTS monthly usage tracker (billing-sensitive)
+config/google_tts_usage.json
+config/google_tts_usage.json.lock
+*.lock
+
+# Winning strategy files (auto-generated runtime data, not source code)
+config/winning_strategy_*.json
+
+# BGM discovery cache (runtime-generated, large)
+config/bgm_discovery.json
+
+# SQLite Databases (dynamic runtime state)
+*.db
+*.db-journal
+*.db-wal
+*.db-shm
+*.sqlite
+*.sqlite3
+
+# Python Caches & Environments
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.env/
+.venv/
+
+# Mac OS Files
+.DS_Store
+
+# Generated Output / Large Media Files
+output/
+.tmp/
+tmp/
+*.mp4
+*.mp3
+*.wav
+*.avi
+*.jpg
+*.jpeg
+*.png
+
+# Precompiled Binaries
+*.exe
+rtk.exe
+
+# VS Code / IDE Settings
+.vscode/
+.idea/
+
+# Windows OS Files
+Thumbs.db
+Desktop.ini
+desktop.ini
+
+# Graphify knowledge graph (fully auto-generated local wiki)
+graphify-out/
+
+scratch/
+*.part  
+.aider*
+AI_ONBOARDING.md  
+ 
