@@ -1,0 +1,66 @@
+# AutoReel — Python Dependencies
+# Install with: pip install -r requirements.txt
+
+# ── Primary AI (Groq — 14,400 free req/day) ──────────────────────────────────
+groq>=0.5.0
+
+# ── Fallback AI (Gemini) ──────────────────────────────────────────────────────
+google-generativeai>=0.5.0
+google-genai>=0.1.0
+
+# 🎙️ Text-to-Speech — 3-tier engine (auto-selected by voice name) ───────────────
+# Tier 1 — Microsoft Edge TTS (FREE — no key, no account, no credit card)
+#   pip install edge-tts   ← always install this
+edge-tts>=6.1.0
+
+# Tier 2 — Google Cloud TTS (premium voices, requires GCP project + credit card)
+#   Setup: https://cloud.google.com/text-to-speech/docs/quickstart
+#   Save your service account JSON to config/gcp-credentials.json
+#   If gcp-credentials.json is missing, the system auto-falls back to Edge TTS.
+google-cloud-texttospeech>=2.14.0
+
+# ── ElevenLabs (optional premium TTS — system falls back to Google TTS) ──────
+# Only needed if you configure ELEVENLABS_API_KEY_1 in .env
+elevenlabs>=1.0.0
+
+# ── Speech-to-text (Whisper — for precision subtitle alignment) ───────────────
+openai-whisper>=20231117
+
+# ── RSS feed parsing ──────────────────────────────────────────────────────────
+feedparser>=6.0.10
+
+# ── Video download (yt-dlp for B-roll + BGM) ─────────────────────────────────
+yt-dlp>=2024.1.0
+
+# ── Image processing (thumbnails) ────────────────────────────────────────────
+Pillow>=10.0.0
+
+# ── YouTube Data API v3 + OAuth2 ─────────────────────────────────────────────
+google-api-python-client>=2.100.0
+google-auth-oauthlib>=1.0.0
+google-auth-httplib2>=0.1.0
+
+# ── Task scheduler ────────────────────────────────────────────────────────────
+schedule>=1.2.0
+
+# ── Utilities ─────────────────────────────────────────────────────────────────
+requests>=2.31.0
+python-dotenv>=1.0.0
+beautifulsoup4>=4.12.0
+
+# ── DuckDuckGo search (used by research and trend fetcher) ───────────────────
+ddgs>=6.2.0
+
+# ── NOTE: ffmpeg must be installed separately (not via pip) ───────────────────
+# Ubuntu/Debian:  sudo apt install ffmpeg
+# Mac:            brew install ffmpeg
+# Windows:        https://ffmpeg.org/download.html
+
+# ── NOTE: PyTorch is required by openai-whisper ───────────────────────────────
+# Install CPU-only version (smaller):
+#   pip install torch --index-url https://download.pytorch.org/whl/cpu
+# Or GPU version for faster transcription:
+#   pip install torch --index-url https://download.pytorch.org/whl/cu118
+psutil>=5.9.0
+
+schedule==1.2.2

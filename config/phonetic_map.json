@@ -1,0 +1,20 @@
+{
+  "\\bD\\.C\\.\\b": "DC",
+  "\\bD\\. C\\.\\b": "DC",
+  "\\bU\\.S\\.\\b": "US",
+  "\\bU\\. S\\.\\b": "US",
+  "\\bU\\.S\\.A\\.\\b": "USA",
+  "\\bA\\.I\\.\\b": "AI",
+  "\\bI\\.T\\.\\b": "IT",
+  "\\bTilak\\b": "Teeluk",
+  "\\bSooryavanshi\\b": "Sooryavanshi",
+  "\\bVirat Kohli\\b": "Vee rat Koh lee",
+  "\\bKohli\\b": "Koh lee",
+  "\\bRohit Sharma\\b": "Ro hit Shar ma",
+  "\\bDhoni\\b": "Dho nee",
+  "\\bSachin\\b": "Suh chin",
+  "\\bBCCI\\b": "B C C I",
+  "\\bODI\\b": "O D I",
+  "\\bIPL\\b": "I P L",
+  "\\bDNA\\b": "D N A"
+}

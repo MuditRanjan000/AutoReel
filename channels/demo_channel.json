@@ -1,0 +1,34 @@
+{
+  "CHANNEL_NAME": "demo_channel",
+  "DISPLAY_NAME": "AutoReel Demo",
+  "SHOW_WATERMARK": false,
+  "NICHE": "Mind-blowing science, aerospace discoveries, ocean exploration, physics marvels, and cutting-edge engineering",
+  "CHANNEL_TONE": "Epic, captivating, fast-paced, authoritative, and cinematic",
+  "TARGET_AUDIENCE": "Curious minds, tech enthusiasts, science lovers, and general audience",
+  
+  "YOUTUBE_CHANNEL_ID": "UC_DEMO_CHANNEL_ID_REPLACE_ME",
+  "YOUTUBE_CATEGORY_ID": "28",
+  
+  "VOICE_PROVIDER": "edge",
+  "voice": "en-US-ChristopherNeural",
+  "voice_rate": "+8%",
+  "voice_pitch": "+0Hz",
+  
+  "video_duration_seconds": 45,
+  "MIN_WORDS": 95,
+  "MAX_WORDS": 115,
+  "FPS": 30,
+  
+  "VISUAL_MODE": "stock_plus_wiki",
+  "STOCK_PROVIDER": "pexels",
+  "DEFAULT_BGM_MOOD": "dramatic",
+  "BGM_VOLUME": 0.12,
+  
+  "CAPTION_STYLE": "yellow_glow",
+  "FONT_NAME": "Impact",
+  "FONT_SIZE": 22,
+  
+  "CTA_STYLE": "comment_trigger",
+  "MAX_VIDEOS_PER_DAY": 2,
+  "active": true
+}

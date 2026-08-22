@@ -1,0 +1,35 @@
+{
+  "_comment": "AutoReel Channel Configuration Template. Copy this file to channels/<your_channel_name>.json",
+  
+  "CHANNEL_NAME": "Your Channel Name",
+  "DISPLAY_NAME": "Your Channel Display Name",
+  "NICHE": "Specific topic (e.g., Space Exploration, True Crime, Stoic Philosophy, AI Breakthroughs)",
+  "CHANNEL_TONE": "Tone and personality (e.g., dramatic, thought-provoking, high-energy, sarcastic)",
+  "TARGET_AUDIENCE": "Target viewer demographic and interests",
+  
+  "YOUTUBE_CHANNEL_ID": "UCxxxxxxxxxxxxxxxxxxxxxxx",
+  "YOUTUBE_CATEGORY_ID": "27",
+  
+  "VOICE_PROVIDER": "edge",
+  "voice": "en-US-GuyNeural",
+  "voice_rate": "+5%",
+  "voice_pitch": "+0Hz",
+  
+  "video_duration_seconds": 55,
+  "MIN_WORDS": 105,
+  "MAX_WORDS": 135,
+  "FPS": 30,
+  
+  "VISUAL_MODE": "stock_plus_wiki",
+  "STOCK_PROVIDER": "pexels",
+  "DEFAULT_BGM_MOOD": "cinematic",
+  "BGM_VOLUME": 0.12,
+  
+  "CAPTION_STYLE": "classic_bold",
+  "FONT_NAME": "Arial",
+  "FONT_SIZE": 20,
+  
+  "CTA_STYLE": "comment_trigger",
+  "MAX_VIDEOS_PER_DAY": 1,
+  "active": false
+}

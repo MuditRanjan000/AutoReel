@@ -1,0 +1,92 @@
+# ============================================================
+#  AutoReel — .gitignore
+# ============================================================
+
+# Secrets & Private Data — NEVER commit to Git
+.env
+*.env
+*client_secrets.json
+credentials.json
+token.json
+channels/*_token.json
+config/*_token.json
+config/gcp-credentials.json
+config/youtube_client_secrets.json
+
+# Private Channel Profiles (Allow example & demo channels only)
+channels/*.json
+!channels/example_channel.json
+!channels/demo_channel.json
+data/corpus/*.json
+
+# Private Prompt Directives (Allow public viral scriptwriter)
+skills/*-script-writer/
+!skills/viral-script-writer/
+
+# Dynamic Runtime State & Caches
+config/google_tts_usage.json
+config/google_tts_usage.json.lock
+config/winning_strategy_*.json
+config/learning_history_*.json
+config/bg_intel_timestamps.json
+config/auto_tune_history_*.json
+config/performance_findings_*.json
+config/bgm_discovery.json
+*.lock
+
+# Databases
+*.db
+*.db-journal
+*.db-wal
+*.db-shm
+*.sqlite
+*.sqlite3
+
+# Python Caches & Virtual Environments
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.env/
+.venv/
+
+# OS Artifacts
+.DS_Store
+Thumbs.db
+Desktop.ini
+desktop.ini
+
+# Output & Temporary Video Artifacts
+output/videos/*
+!output/videos/.gitkeep
+output/logs/*
+!output/logs/.gitkeep
+.tmp/
+tmp/
+scratch/
+*.mp4
+*.wav
+*.avi
+*.jpg
+*.jpeg
+*.png
+*.gif
+!docs/assets/*.gif
+*.part
+
+# Precompiled Binaries
+*.exe
+rtk.exe
+
+# IDE Configurations
+.vscode/
+.idea/
+
+# Internal Knowledge Graphs & Assistant Logs
+graphify-out/
+.aider*
+AI_ONBOARDING.md
+.deploy_config
